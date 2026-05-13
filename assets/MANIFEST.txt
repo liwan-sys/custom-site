@@ -1,0 +1,33 @@
+Photos extraites depuis https://janetteboudoir.com/
+Date d'extraction : 2026-05-13
+Pages parcourues : /commander/ + /boutique/ + /cupcakes/ + /gateaux-sur-mesure/
+                   + /layer-cake/ + /number-cake-letter-cake/ + /sables-a-theme/
+                   + /traiteur-entreprise/ + /produit/sable-personnalises/
+                   + /qui-est-derriere-janette/
+
+Structure :
+  01_produits_HD/                 29 fichiers - Photos produits haute résolution
+                                  (gâteaux, cupcakes, sablés, coffrets, traiteur)
+                                  Tailles : 567x425 → 3648x5472, total ~30 Mo
+
+  02_traiteur_galerie_petites/    24 fichiers - Vignettes du carrousel de la page
+                                  /traiteur-entreprise/ (1.jpg … 24.jpg)
+                                  Toutes en 150x150 — c'est la taille originale
+                                  uploadée sur le site, il n'existe pas de
+                                  version plus grande côté serveur.
+
+  03_assets_site/                  4 fichiers - Éléments d'interface
+                                  (logo "Janette Boudoir", favicon, picto blé,
+                                  logo Paris Match)
+
+Notes :
+- IMG_1830.jpeg (3024x4032) et IMG_1830-scaled.jpeg (1920x2560) sont la même
+  image — WordPress génère automatiquement une version "-scaled" plafonnée à
+  2560px. Idem pour JanetteBoudoir6.jpg (3648x5472) et JanetteBoudoir6-scaled.jpg.
+  Conservez l'originale (non "-scaled") si vous voulez la pleine résolution.
+
+- Tous les fichiers conservent leur nom d'origine tel qu'uploadé sur le site,
+  pour faciliter la traçabilité.
+
+- Droits : ces visuels appartiennent à Janette Boudoir / leurs auteurs.
+  Vérifier l'autorisation d'usage avant toute réutilisation.
