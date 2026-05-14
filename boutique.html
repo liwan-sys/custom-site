@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boutique — Janette Boudoir Pâtisserie</title>
+  <meta name="description" content="Découvrez toutes nos créations : cake design, number cakes, cupcakes, sablés brodés et formules traiteur. Pâtisserie artisanale parisienne, faite à la commande.">
+  <meta name="theme-color" content="#FAF6F1">
+
+  <meta property="og:title" content="Boutique — Janette Boudoir Pâtisserie">
+  <meta property="og:description" content="Découvrez toutes nos créations : cake design, number cakes, cupcakes, sablés brodés et formules traiteur. Pâtisserie artisanale parisienne, faite à la commande.">
+  <meta property="og:image" content="assets/products/JanetteBoudoir6-scaled.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:url" content="https://janetteboudoir.fr/boutique.html">
+
+  <link rel="icon" type="image/png" href="assets/brand/cropped-favicon.png">
+  <link rel="apple-touch-icon" href="assets/brand/cropped-favicon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="index.html" class="brand" aria-label="Janette Boudoir, accueil">
+      <img src="assets/brand/cropped-Janette-Boudoir.png" alt="" width="120" height="38">
+      <span class="brand-text">Janette Boudoir</span>
+    </a>
+    <nav class="nav-primary" aria-label="Navigation principale">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="boutique.html" class="active">Boutique</a></li>
+        <li><a href="traiteur.html">Traiteur</a></li>
+        <li><a href="a-propos.html">À propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a href="commander.html" class="cart-btn" aria-label="Voir ma commande">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+      </a>
+      <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<nav class="mobile-nav" id="mobile-nav" aria-label="Navigation mobile">
+  <ul>
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="boutique.html" class="active">Boutique</a></li>
+    <li><a href="traiteur.html">Traiteur</a></li>
+    <li><a href="a-propos.html">À propos</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="commander.html">Commander</a></li>
+  </ul>
+  <div class="mobile-footer">
+    <p>12 rue de l'Artisan, 75011 Paris</p>
+    <p>bonjour@janetteboudoir.fr</p>
+  </div>
+</nav>
+
+<main id="main">
+
+  <section class="hero hero-secondary" aria-labelledby="boutique-title">
+    <img src="assets/products/IMG_1830-scaled.jpeg" alt="Layer cake signature Janette Boudoir" class="hero-img">
+    <div class="hero-content">
+      <span class="eyebrow">La boutique</span>
+      <h1 id="boutique-title">Toutes nos créations.</h1>
+      <p>Gâteaux d'auteur, sablés brodés, plateaux traiteur — tout est fait à la main, à la commande, dans notre atelier parisien.</p>
+    </div>
+  </section>
+
+  <section class="section" id="gateaux">
+    <div class="container">
+      <div class="intro reveal">
+        <span class="eyebrow">27 créations</span>
+        <h2>Choisissez votre univers</h2>
+        <p>Filtrez par famille de produit. Chaque pièce est personnalisable — n'hésitez pas à nous écrire pour adapter parfums, formes ou couleurs.</p>
+      </div>
+
+      <div class="filters" role="tablist" aria-label="Filtrer par catégorie">
+        <button type="button" class="filter-chip is-active" data-filter="all">Tout</button>
+        <button type="button" class="filter-chip" data-filter="signature">Signatures</button>
+        <button type="button" class="filter-chip" data-filter="gateaux">Gâteaux</button>
+        <button type="button" class="filter-chip" data-filter="cupcakes">Cupcakes</button>
+        <button type="button" class="filter-chip" data-filter="sables">Sablés & Coffrets</button>
+        <button type="button" class="filter-chip" data-filter="traiteur">Traiteur</button>
+      </div>
+
+      <div class="grid">
+        <article class="product-card reveal" data-category="signature gateaux">
+          <div class="product-media">
+            <span class="product-tag">Signature</span>
+            <img src="assets/products/cake-design-janetteboudoir.webp" alt="Cake Design sur-mesure" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Cake Design sur-mesure</h3>
+            <p class="product-meta">Signatures</p>
+            <div class="product-cta">
+              <span class="price">Sur devis</span>
+              <button type="button" data-order="Cake Design sur-mesure">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="gateaux">
+          <div class="product-media">
+            
+            <img src="assets/products/personnalisation-cake-janetteboudoir.webp" alt="Cake personnalisé" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Cake personnalisé</h3>
+            <p class="product-meta">Gâteaux</p>
+            <div class="product-cta">
+              <span class="price">Sur devis</span>
+              <button type="button" data-order="Cake personnalisé">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="gateaux">
+          <div class="product-media">
+            
+            <img src="assets/products/naked-cake-floral-janette-boudoir.jpg" alt="Naked Cake floral" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Naked Cake floral</h3>
+            <p class="product-meta">Gâteaux</p>
+            <div class="product-cta">
+              <span class="price">Sur devis</span>
+              <button type="button" data-order="Naked Cake floral">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="gateaux">
+          <div class="product-media">
+            
+            <img src="assets/products/naked-cake-personnalise-janette-boudoir-1.jpg" alt="Naked Cake personnalisé" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Naked Cake personnalisé</h3>
+            <p class="product-meta">Gâteaux</p>
+            <div class="product-cta">
+              <span class="price">Sur devis</span>
+              <button type="button" data-order="Naked Cake personnalisé">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="gateaux">
+          <div class="product-media">
+            
+            <img src="assets/products/rose-cake-janette-boudoir.jpg" alt="Rose Cake" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Rose Cake</h3>
+            <p class="product-meta">Gâteaux</p>
+            <div class="product-cta">
+              <span class="price">Sur devis</span>
+              <button type="button" data-order="Rose Cake">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="gateaux">
+          <div class="product-media">
+            
+            <img src="assets/products/letter-cake-chiffres-janette-boudoir.jpg" alt="Letter Cake" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Letter Cake</h3>
+            <p class="product-meta">Gâteaux</p>
+            <div class="product-cta">
+              <span class="price">Sur devis</span>
+              <button type="button" data-order="Letter Cake">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="gateaux">
+          <div class="product-media">
+            
+            <img src="assets/products/number-cakes-janette-boudoir.jpg" alt="Number Cake" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Number Cake</h3>
+            <p class="product-meta">Gâteaux</p>
+            <div class="product-cta">
+              <span class="price">Sur devis</span>
+              <button type="button" data-order="Number Cake">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="gateaux">
+          <div class="product-media">
+            
+            <img src="assets/products/number-cakes-2-chiffres-janette-boudoir-1.jpg" alt="Number Cake — Deux chiffres" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Number Cake — Deux chiffres</h3>
+            <p class="product-meta">Gâteaux</p>
+            <div class="product-cta">
+              <span class="price">Sur devis</span>
+              <button type="button" data-order="Number Cake — Deux chiffres">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="gateaux">
+          <div class="product-media">
+            
+            <img src="assets/products/IMG_1830-scaled.jpeg" alt="Layer Cake signature" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Layer Cake signature</h3>
+            <p class="product-meta">Gâteaux</p>
+            <div class="product-cta">
+              <span class="price">Sur devis</span>
+              <button type="button" data-order="Layer Cake signature">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="gateaux">
+          <div class="product-media">
+            
+            <img src="assets/products/IMG_9608-2.jpeg" alt="Création artisanale" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Création artisanale</h3>
+            <p class="product-meta">Gâteaux</p>
+            <div class="product-cta">
+              <span class="price">Sur devis</span>
+              <button type="button" data-order="Création artisanale">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="gateaux">
+          <div class="product-media">
+            
+            <img src="assets/products/IMG-0594.jpg" alt="Pièce montée moderne" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Pièce montée moderne</h3>
+            <p class="product-meta">Gâteaux</p>
+            <div class="product-cta">
+              <span class="price">Sur devis</span>
+              <button type="button" data-order="Pièce montée moderne">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="gateaux">
+          <div class="product-media">
+            
+            <img src="assets/products/49bd4c70-63ba-4c1a-ab37-402842618039-2.jpg" alt="Création saisonnière" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Création saisonnière</h3>
+            <p class="product-meta">Gâteaux</p>
+            <div class="product-cta">
+              <span class="price">Sur devis</span>
+              <button type="button" data-order="Création saisonnière">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="gateaux">
+          <div class="product-media">
+            
+            <img src="assets/products/Capture-decran-2024-03-22-a-10.40.03-3.png" alt="Création exclusive" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Création exclusive</h3>
+            <p class="product-meta">Gâteaux</p>
+            <div class="product-cta">
+              <span class="price">Sur devis</span>
+              <button type="button" data-order="Création exclusive">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="signature gateaux">
+          <div class="product-media">
+            <span class="product-tag">Signature</span>
+            <img src="assets/products/JanetteBoudoir6-scaled.jpg" alt="Signature Janette" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Signature Janette</h3>
+            <p class="product-meta">Signatures</p>
+            <div class="product-cta">
+              <span class="price">Sur devis</span>
+              <button type="button" data-order="Signature Janette">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="signature gateaux">
+          <div class="product-media">
+            <span class="product-tag">Signature</span>
+            <img src="assets/products/janette-boudoir.jpg" alt="Création sur-mesure" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Création sur-mesure</h3>
+            <p class="product-meta">Signatures</p>
+            <div class="product-cta">
+              <span class="price">Sur devis</span>
+              <button type="button" data-order="Création sur-mesure">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="cupcakes">
+          <div class="product-media">
+            
+            <img src="assets/products/cup-cake-licorne-janette-boudoir.jpg" alt="Cupcakes Licorne" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Cupcakes Licorne</h3>
+            <p class="product-meta">Cupcakes</p>
+            <div class="product-cta">
+              <span class="price">dès 3,50 € / pièce</span>
+              <button type="button" data-order="Cupcakes Licorne">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="cupcakes">
+          <div class="product-media">
+            
+            <img src="assets/products/sirene-cupcakes.jpeg" alt="Cupcakes Sirène" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Cupcakes Sirène</h3>
+            <p class="product-meta">Cupcakes</p>
+            <div class="product-cta">
+              <span class="price">dès 3,50 € / pièce</span>
+              <button type="button" data-order="Cupcakes Sirène">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="sables">
+          <div class="product-media">
+            
+            <img src="assets/products/sable-personnalise-janette-boudoir.jpg" alt="Sablés brodés sur-mesure" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Sablés brodés sur-mesure</h3>
+            <p class="product-meta">Sablés & Coffrets</p>
+            <div class="product-cta">
+              <span class="price">dès 4 € / pièce</span>
+              <button type="button" data-order="Sablés brodés sur-mesure">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="sables">
+          <div class="product-media">
+            
+            <img src="assets/products/coffret-biscuits-de-noel-janette-boudoir.jpg" alt="Coffret biscuits de Noël" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Coffret biscuits de Noël</h3>
+            <p class="product-meta">Sablés & Coffrets</p>
+            <div class="product-cta">
+              <span class="price">dès 4 € / pièce</span>
+              <button type="button" data-order="Coffret biscuits de Noël">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="sables">
+          <div class="product-media">
+            
+            <img src="assets/products/BOX-NOEL-2024-MINI-COFFRET-JANETTE-BOUDOIR-copie.jpg" alt="Mini coffret de Noël" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Mini coffret de Noël</h3>
+            <p class="product-meta">Sablés & Coffrets</p>
+            <div class="product-cta">
+              <span class="price">dès 4 € / pièce</span>
+              <button type="button" data-order="Mini coffret de Noël">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="sables">
+          <div class="product-media">
+            
+            <img src="assets/products/Boite-Alice-2021_ouverte_care_01-1.jpg" alt="Boîte Alice" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Boîte Alice</h3>
+            <p class="product-meta">Sablés & Coffrets</p>
+            <div class="product-cta">
+              <span class="price">dès 4 € / pièce</span>
+              <button type="button" data-order="Boîte Alice">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="traiteur">
+          <div class="product-media">
+            
+            <img src="assets/products/cocktails-sales-janette-boudoir.webp" alt="Cocktail salé pro" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Cocktail salé pro</h3>
+            <p class="product-meta">Traiteur</p>
+            <div class="product-cta">
+              <span class="price">dès 12 € / pers.</span>
+              <button type="button" data-order="Cocktail salé pro">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="traiteur">
+          <div class="product-media">
+            
+            <img src="assets/products/cocktails-sucres-janette-boudoir.webp" alt="Cocktail sucré pro" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Cocktail sucré pro</h3>
+            <p class="product-meta">Traiteur</p>
+            <div class="product-cta">
+              <span class="price">dès 12 € / pers.</span>
+              <button type="button" data-order="Cocktail sucré pro">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="traiteur">
+          <div class="product-media">
+            
+            <img src="assets/products/formules-traiteur-janette-boudoir.webp" alt="Formules traiteur" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Formules traiteur</h3>
+            <p class="product-meta">Traiteur</p>
+            <div class="product-cta">
+              <span class="price">dès 12 € / pers.</span>
+              <button type="button" data-order="Formules traiteur">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="traiteur">
+          <div class="product-media">
+            
+            <img src="assets/products/offre-petit-dejeuner-janette-boudoir.webp" alt="Petit-déjeuner d'entreprise" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Petit-déjeuner d'entreprise</h3>
+            <p class="product-meta">Traiteur</p>
+            <div class="product-cta">
+              <span class="price">dès 12 € / pers.</span>
+              <button type="button" data-order="Petit-déjeuner d'entreprise">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="traiteur">
+          <div class="product-media">
+            
+            <img src="assets/products/traiteur-entreprise-ile-de-france.jpg" alt="Traiteur Île-de-France" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Traiteur Île-de-France</h3>
+            <p class="product-meta">Traiteur</p>
+            <div class="product-cta">
+              <span class="price">dès 12 € / pers.</span>
+              <button type="button" data-order="Traiteur Île-de-France">Commander</button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="traiteur">
+          <div class="product-media">
+            
+            <img src="assets/products/traiteur-entreprise-val-d-oise-janetteboudoir.webp" alt="Traiteur Val-d'Oise" loading="lazy" width="800" height="1000">
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Traiteur Val-d'Oise</h3>
+            <p class="product-meta">Traiteur</p>
+            <div class="product-cta">
+              <span class="price">dès 12 € / pers.</span>
+              <button type="button" data-order="Traiteur Val-d'Oise">Commander</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="banner-cta reveal">
+    <h2>Un projet sur-mesure ?</h2>
+    <p>Nous créons aussi des pièces qui ne sont pas au catalogue. Décrivez-nous votre idée, on s'occupe du reste.</p>
+    <a href="contact.html#devis" class="btn btn-primary">Demander un devis</a>
+  </section>
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-brand">Janette Boudoir</p>
+        <p class="footer-tag">Pâtisserie artisanale & traiteur événementiel. Paris, France.</p>
+        <div class="socials">
+          <a href="https://www.instagram.com/janetteboudoir" aria-label="Instagram" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          </a>
+          <a href="https://www.facebook.com/janetteboudoir" aria-label="Facebook" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13 22v-8h3l1-4h-4V7.5c0-1.1.4-2 2-2h2V2h-3c-3 0-5 1.8-5 5v3H6v4h3v8h4Z"/></svg>
+          </a>
+          <a href="https://www.pinterest.fr/janetteboudoir" aria-label="Pinterest" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.5 2 2 6.5 2 12c0 4.2 2.6 7.8 6.2 9.3-.1-.8-.2-2 0-2.9.2-.8 1.2-5 1.2-5s-.3-.6-.3-1.5c0-1.4.8-2.5 1.9-2.5.9 0 1.3.7 1.3 1.5 0 .9-.6 2.3-.9 3.5-.3 1.1.5 2 1.6 2 1.9 0 3.4-2 3.4-5 0-2.6-1.9-4.4-4.5-4.4-3.1 0-4.9 2.3-4.9 4.7 0 .9.4 1.9.8 2.5.1.1.1.2.1.3l-.3 1.1c-.1.2-.2.3-.4.2-1.4-.6-2.2-2.7-2.2-4.3 0-3.5 2.5-6.7 7.3-6.7 3.8 0 6.8 2.7 6.8 6.4 0 3.8-2.4 6.9-5.8 6.9-1.1 0-2.2-.6-2.6-1.3l-.7 2.7c-.3 1-1 2.3-1.5 3.1.9.3 1.9.4 2.9.4 5.5 0 10-4.5 10-10S17.5 2 12 2Z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Boutique</h5>
+        <ul>
+          <li><a href="boutique.html">Toutes les créations</a></li>
+          <li><a href="boutique.html#gateaux">Gâteaux</a></li>
+          <li><a href="boutique.html#cupcakes">Cupcakes</a></li>
+          <li><a href="boutique.html#sables">Sablés</a></li>
+          <li><a href="commander.html">Ma commande</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Maison</h5>
+        <ul>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="traiteur.html">Traiteur entreprises</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html#devis">Demander un devis</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Atelier</h5>
+        <ul>
+          <li>12 rue de l'Artisan<br>75011 Paris</li>
+          <li><a href="tel:+33100000000">+33 1 00 00 00 00</a></li>
+          <li><a href="mailto:bonjour@janetteboudoir.fr">bonjour@janetteboudoir.fr</a></li>
+          <li>Mar–Sam · 10h–19h</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Janette Boudoir — Tous droits réservés</p>
+      <div class="footer-bottom-links">
+        <a href="#mentions">Mentions légales</a>
+        <a href="#cgv">CGV</a>
+        <a href="#confidentialite">Confidentialité</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<aside class="cookie" role="dialog" aria-label="Préférences cookies">
+  <p>Nous utilisons des cookies pour analyser notre trafic et améliorer votre expérience. <a href="#confidentialite">En savoir plus</a></p>
+  <div class="cookie-actions">
+    <button type="button" class="accept">Accepter</button>
+    <button type="button">Refuser</button>
+  </div>
+</aside>
+
+<a href="#main" class="back-top" aria-label="Retour en haut">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+</a>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
